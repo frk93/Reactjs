@@ -3,10 +3,12 @@ import ReactDOM from "react-dom";
 import "./css/style.css";
 
 class Clock extends React.Component {
-  state = { time: new Date().toLocaleTimeString() };
+  state = { time: new Date().toLocaleTimeString() }; // declate a state in class based component
   componentDidMount() {
+    //life cycle method of React System
     setInterval(() => {
       this.setState({
+        //changing the state in setState method
         time: new Date().toLocaleTimeString()
       });
     }, 1000);
