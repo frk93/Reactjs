@@ -1,0 +1,18 @@
+.disp {
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.winter {
+    background-color: skyblue
+}
+
+.summer {
+    background-color: orange
+}
+
+h3 {
+    text-align: center;
+}
